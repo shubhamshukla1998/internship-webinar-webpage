@@ -1,0 +1,22 @@
+.compDets_SignupQues
+{
+    text-align: center;
+}
+.compDets_emailIcon,.compDets_passwordIcon,.compDets_nameIcon
+{
+    background-color: #fff !important;
+    border: 0px !important;
+}
+.compDets_passwordInput,.compDets_nameInput,.compDets_emailInput
+{
+    border-color: #fff !important;
+}
+.compDets_loginHeader
+{
+    margin-left: 40%;
+    font-size: 2rem !important;
+}
+.compDets_loginSubmit
+{
+    margin-left: 40%; 
+}

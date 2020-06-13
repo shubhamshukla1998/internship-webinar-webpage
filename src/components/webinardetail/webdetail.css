@@ -1,0 +1,81 @@
+.share{
+    display: flex;
+    justify-content: space-evenly;
+    color: #8a858d;
+}
+
+.ini{
+    display: flex;
+    justify-content: space-between;
+    color: #8a858d;
+}
+
+.web-main{
+    
+    justify-content: center;
+}
+
+.main-body{
+    border-top: 3px solid #74b9ff;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    
+}
+.img{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+
+}
+
+.inner{
+    display: flex;
+    justify-content: start;
+    
+}
+.desig{
+    margin-bottom: 0px;
+    color: black;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    
+}
+.matter{
+    font-size: 13px;
+
+}
+
+.int{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.company{
+    color: grey;
+}
+.info{
+    margin-left: 5px;
+
+}
+
+.fol{
+    float: right;
+}
+.about{
+    padding: 5px 0px 5px 0;
+    text-decoration: underline;
+    padding: 10px
+
+}
+.titi{
+    font-size: 24px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    Box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+

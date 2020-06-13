@@ -1,0 +1,66 @@
+.filter-div {
+  position: absolute;
+  margin-left: 30px;
+  top: 0;
+  padding: 30px 0;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+strong {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #484848;
+  line-height: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+span:hover {
+  color: lightblue;
+}
+
+.tag {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.categ-list {
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+  color: #484848;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.categ-list:hover {
+  color: lightblue;
+}
+
+label {
+  padding: 2px;
+}
+
+@media (max-width: 600px) {
+  .filter-accord {
+    display: none;
+  }
+}

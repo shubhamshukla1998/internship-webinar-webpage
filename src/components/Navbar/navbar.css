@@ -1,0 +1,137 @@
+.navbar {
+  background-color: #fff !important;
+}
+
+.NavIcons {
+  font-size: 25px;
+  text-align: right;
+  display: flex;
+  float: right;
+  justify-content: end;
+}
+.dropWhite {
+  color: #fff !important;
+}
+.textGray {
+  color: grey;
+}
+li {
+  list-style-type: none;
+}
+
+.bgBlue {
+  background-image: linear-gradient(
+    to right bottom,
+    #176ede,
+    #0085dc,
+    #0093e0,
+    #00a0e3,
+    #25ade5
+  );
+  padding-top: 5%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.bgWhite {
+  background-color: white;
+  display: -webkit-inline-box;
+  padding-left: 20px !important;
+}
+
+.bgWhite .btn-success {
+  color: #000;
+  background-color: #fff;
+  border: none;
+}
+.rightTrend {
+  color: black;
+  float: right;
+}
+.searchWhite {
+  padding: 5% 3%;
+  padding-bottom: 1% !important;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+  bottom: -2;
+}
+.colSearch {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.searchBtn {
+  border-color: #fff !important;
+}
+.input-group > .form-control {
+  height: 100%;
+  border-color: #fff !important;
+}
+.input-group {
+  height: 100%;
+  border: none !important;
+}
+.headerS {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: auto;
+  text-align: center;
+}
+.compDets_navBtn {
+  background-color: #1077d6;
+  color: #fff !important;
+}
+.compDets_jumbotron {
+  /* background-image: url("../images/internpic.jpg"); */
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  border-bottom: 4px solid #176ede;
+  margin-bottom: 0px !important;
+}
+.compDets_pentablue {
+  position: absolute;
+  right: 40%;
+  width: 114px;
+  height: 30px;
+  background: #176ede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding-top: 10px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.compDets_pentablue::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  border-left: 57px solid transparent;
+  border-right: 57px solid transparent;
+  border-top: 8px solid #176ede;
+  right: 0;
+  margin: auto;
+  width: 0;
+}
+
+.pub_navBtn {
+  border-radius: 4px;
+  color: #fff;
+  padding: 5px;
+  background: #176ede !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+#basic-nav-dropdown {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  background-color: rgba(23, 110, 222, 0.9) !important;
+  color: white !important;
+  border-radius: 5px !important;
+}

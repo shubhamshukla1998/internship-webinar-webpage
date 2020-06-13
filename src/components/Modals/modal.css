@@ -1,0 +1,42 @@
+ol li {
+  list-style-type: decimal !important;
+}
+
+#timing {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+strong {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.questions-form {
+  font-weight: 500;
+}
+
+.tag {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.categ-list {
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+  color: #484848;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.categ-list:hover {
+  color: lightblue;
+}
